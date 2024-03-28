@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
+import Button from "@/components/Button/Button";
 
 const About = () => {
   return (
@@ -30,17 +31,30 @@ const About = () => {
             culpa, tempore blanditiis ipsa officiis voluptate dolorum
             distinctio! Amet quis accusantium eveniet illo nihil.
             <br />
+            <br />
             Optio autemsunt id magnam ipsam omnis sapiente dicta beatae iusto
             voluptatum maiores nulla earum placeat dolorem fugiat
             exercitationem! Sed quis minima ipsa, laborum veritatis magnam
-            ducimus libero, dolor eius deleniti maiores praesentium, laudantium
-            possimus quidem officiis aut impedit dicta dignissimos numquam
-            labore adipisci inventore odio explicabo. Dignissimos, laudantium
-            eius.
+            ducimus libero.
+            <br />
+            <br />
+            Dignissimos, laudantium eius officiis aut impedit dicta. dolor eius
+            deleniti maiores praesentium, laudantium possimus quidem officiis
+            aut impedit dicta dignissimos numquam labore adipisci inventore odio
+            explicabo.
           </p>
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>What We Do?</h1>
+          <p className={styles.desc}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            laudantium nihil rem optio, facere qui maxime animi voluptatum
+            numquam maiores ex perferendis.
+            <br />
+            <br />
+            Ipsam aliquid maxime voluptatum, possimus iste cupiditate! Animi.
+          </p>
+          <Button url="/contact" text="Contact" />
         </div>
       </div>
     </div>
